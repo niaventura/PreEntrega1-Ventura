@@ -1,0 +1,366 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto&family=Ubuntu&display=swap");
+.logo {
+  height: 55px;
+  width: 140px;
+}
+
+.padding {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+footer {
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 3%;
+}
+
+footer div ul li {
+  display: inline-block;
+  bottom: 20px;
+  padding: 10px;
+}
+
+footer div p {
+  font-weight: 600;
+  font-size: x-small;
+}
+
+footer img {
+  width: 20px;
+  height: 20px;
+}
+
+.titulo {
+  font-size: 28pt;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  margin-top: 3%;
+  margin-bottom: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titlesize {
+  font-size: 60px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titlebox {
+  position: absolute;
+  width: 300px;
+  right: 7%;
+  top: 55%;
+  text-align: right;
+}
+.titlebox .albumname {
+  display: inline-block;
+  font-size: 10vh;
+  letter-spacing: 1px;
+  font-weight: 700;
+  line-height: 90px;
+  margin-bottom: 20px;
+}
+.titlebox .albumname a {
+  text-decoration: none;
+  color: black;
+}
+.titlebox .artistname a {
+  display: inline-block;
+  font-size: 3vh;
+  letter-spacing: 1px;
+  font-weight: 500;
+  margin-right: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+.titlebox .mainline {
+  position: relative;
+  width: 170px;
+  float: right;
+  margin-top: 30px;
+  border-bottom: 1px solid #000000;
+  margin-right: 5px;
+}
+
+.lanzamientos {
+  position: relative;
+  width: 60%;
+  text-align: right;
+  float: right;
+  margin-top: 12px;
+}
+.lanzamientos a {
+  text-decoration: none;
+  font-size: small;
+  color: black;
+}
+
+.discos .info {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 10pt;
+  font-weight: 600;
+  margin-bottom: 30px;
+  padding: 5px;
+}
+
+.textos {
+  height: 25px;
+  width: 90px;
+  background-color: rgb(199, 199, 199);
+  opacity: 60%;
+  margin: 3px;
+  padding: 3px;
+  font-weight: bolder;
+  display: inline-block;
+  text-align: left;
+  position: relative;
+  left: -42px;
+  top: 100px;
+}
+
+.textos2 {
+  height: 50px;
+  width: 115px;
+  background-color: rgb(199, 199, 199);
+  opacity: 60%;
+  margin: 3px;
+  padding: 3px;
+  position: relative;
+  left: 210px;
+  bottom: 60px;
+  font-weight: bolder;
+}
+
+.side {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  min-width: 1200px;
+  max-width: 1200px;
+}
+
+.side .side2 {
+  position: fixed;
+  width: 350px;
+  top: 400px;
+  text-align: center;
+  right: -75px;
+  font-weight: 700;
+  font-size: 10pt;
+  letter-spacing: 2px;
+  color: #333;
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+}
+
+.side span {
+  display: inline-block;
+  width: 130px;
+  border-top: 1px solid #000;
+  vertical-align: middle;
+  margin: 0 25px;
+}
+
+@media only screen and (max-width: 989px) {
+  .side {
+    display: none;
+  }
+}
+.discos .portada {
+  height: 250px;
+  width: 250px;
+}
+
+.fotos {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.carousel {
+  height: 80vh;
+  width: 95vw;
+  position: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+iframe {
+  height: 80vh;
+  width: 75vw;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fadeIn {
+  animation: fadeIn 2s;
+}
+
+.fondo {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../imagenes/bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-self: center;
+}
+
+.fondo2 {
+  background-color: rgb(243, 243, 243);
+}
+
+@media only screen and (max-width: 800px) and (max-height: 1100px) {
+  .fondo {
+    background: url(../imagenes/fondomovil.jpeg) no-repeat;
+    background-position: center;
+  }
+}
+.form li {
+  padding: 10px;
+}
+
+.btn2 {
+  background-color: white;
+  border: white;
+}
+
+ul li {
+  list-style: none;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 100px;
+}
+
+.container:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: url("../imagenes/contacto.jpg") no-repeat center;
+  background-size: cover;
+  filter: blur(50px);
+  z-index: -1;
+}
+
+.contact-box {
+  max-width: 850px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
+}
+
+.left {
+  background: url("../imagenes/contacto.jpg") no-repeat center;
+  background-size: cover;
+  height: 100%;
+}
+
+.right {
+  padding: 25px 40px;
+}
+
+h2 {
+  position: relative;
+  padding: 0 0 10px;
+  margin-bottom: 10px;
+}
+
+h2:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  height: 4px;
+  width: 50px;
+  border-radius: 2px;
+  background-color: rgb(123, 154, 211);
+}
+
+.field {
+  width: 100%;
+  border: 2px solid rgba(0, 0, 0, 0);
+  outline: none;
+  background-color: rgba(230, 230, 230, 0.6);
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  margin-bottom: 22px;
+  transition: 0.3s;
+}
+
+.field:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+  min-height: 150px;
+}
+
+.btn {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background-color: rgb(123, 154, 211);
+  color: #fff;
+  font-size: 1.1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: rgb(108, 141, 202);
+}
+
+.field:focus {
+  border: 2px solid rgba(30, 85, 250, 0.47);
+  background-color: #fff;
+}
+
+@media screen and (max-width: 880px) {
+  .contact-box {
+    grid-template-columns: 1fr;
+  }
+  .left {
+    height: 200px;
+  }
+}
